@@ -1,0 +1,43 @@
+.container{
+    background:white;
+    margin:auto;
+    padding: 600px;
+}
+.header{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+    width: 600px;}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+.right{
+    display:flex;
+    justify-content:flex-end;
+    padding: 5px;
+}
+img{
+    object-fit:contain;
+    width: 600px
+}
+.icons{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+    width: 600px;
+}
+
+.likes{
+    width: 600px;
+}
+.type{
+    width: 600px;
+}
